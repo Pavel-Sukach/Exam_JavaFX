@@ -15,6 +15,7 @@ public class Circle extends Figure{
     public Circle(double cx, double cy, double lineWidth, Color color, double radius) {
         this(cx, cy, lineWidth, color);
         this.radius = radius < 10 ? 50 : radius;
+        //check
     }
 
     public double getRadius() {
